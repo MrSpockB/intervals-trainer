@@ -10,9 +10,10 @@
 .answers {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 2rem;
   button {
-    margin: 0 0.3rem;
+    margin: 0.5rem;
     &.incorrect {
       background-color: rgb(255, 147, 147);
     }
