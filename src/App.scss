@@ -1,0 +1,29 @@
+.App {
+  width: 100%;
+  text-align: center;
+}
+.notes {
+  text-align: center;
+  font-size: 40px;
+}
+
+.answers {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  button {
+    margin: 0 0.3rem;
+    &.incorrect {
+      background-color: rgb(255, 147, 147);
+    }
+    &.correct {
+      background-color: rgb(142, 245, 142);
+    }
+    &.border {
+      border: 2px solid black;
+    }
+  }
+}
+.next-btn {
+  margin-top: 2rem;
+}
